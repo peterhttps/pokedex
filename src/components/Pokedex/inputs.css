@@ -1,0 +1,85 @@
+.buttons {
+    background: #D64045;
+    justify-content: center;
+    margin: auto;
+    display: flex;
+    max-width: 1200px;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+.buttons button {
+    margin: 1em;
+
+    background: #3D5A80;
+    padding: .5em 2em .5em 2em;
+    border: none;
+    color: white;
+    border: 1px solid #E0FBFC;
+    border-radius: 1em;
+    cursor: pointer;
+    box-shadow: 0px 4px 10px -3px rgba(0,0,0,0.75);
+    font-size: 1em;
+
+}
+
+.buttons button:hover {
+    background: #D64045;
+    transition: .3s;
+}
+
+
+
+.buttons button::-moz-focus-inner {
+    border: 0;
+}
+
+.searchSection {
+    display: flex;
+
+    padding-left: 20em;
+    padding-right: 20em;
+    justify-content: center;
+    margin-bottom: 2em;
+
+
+}
+
+.searchInput {
+    flex-grow:2;
+    border:none;
+    height: 2em;
+    padding: .5em 1em .5em 1em;    
+    
+
+}
+
+.searchSection button {
+    border:1px solid white;
+    background: white;
+    color: #aaaaaa;
+    cursor: pointer;
+    outline: none;
+}
+
+
+.searchSection button::-moz-focus-inner {
+    border: 0;
+}
+  
+
+@media screen and (max-width: 600px) {
+    
+    .searchSection {
+      
+      padding-left: 1em;
+      padding-right: 1em;
+    }
+    
+  }
+  
+
+
+
+  
+  

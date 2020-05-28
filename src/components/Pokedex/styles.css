@@ -1,0 +1,14 @@
+.pokedexGeneral {
+    background: #D64045;
+    max-width: 1200px;
+    margin: auto;
+    padding-top: 2em;
+}
+
+.pokedexGeneral[target=loadedSearch] {
+    background: #D64045;
+    max-width: 1200px;
+    margin: auto;
+    padding-top: 2em;
+    height: 100vh;
+}

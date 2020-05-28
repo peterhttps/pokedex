@@ -1,0 +1,79 @@
+.pokeId {
+    text-align: center; 
+    padding-top: 0;
+    padding-left: 6em;
+    padding-right: 6em;
+   
+}
+
+.pokeId p {
+    font-size: 1em;
+   
+    box-shadow: 0px 4px 10px -3px rgba(0,0,0,0.75);
+}
+
+.pokedexPanel[target=loading] {
+    background: #D64045;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 1200px;
+    margin: auto;
+    height: 100vh;
+    font-family: 'Karla', sans-serif;
+    
+}
+
+.pokedexPanel[target=loaded] {
+    background: #D64045;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 1200px;
+    margin: auto;
+    
+    font-family: 'Karla', sans-serif;
+    
+}
+
+.pokedexPanel[target=loadedSearch] {
+    background: #D64045;
+    display: flex;
+
+    justify-content: center;
+    max-width: 1200px;
+    margin: auto;
+    font-family: 'Karla', sans-serif;
+    
+}
+
+.pokedexPanel > div {
+    background-color: #E0FBFC;
+    margin: .4em;
+    text-align: center;
+    width: 20em;
+    margin: .5em;
+    font-size: 1em;  
+    box-shadow: 3px 4px 10px -3px rgba(0,0,0,0.75);
+    height: 100%;
+}
+
+.panelTexts h1 {
+    
+    font-family: 'Rubik', sans-serif;
+}
+
+.panelTexts p {
+    font-family: 'Karla', sans-serif;
+}
+
+.panelTexts {
+    border-top: solid 3px black;
+    background: #DC493A;
+    padding-bottom: 1em;
+     
+}
+
+
+
+
